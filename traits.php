@@ -19,7 +19,11 @@
 		use Persona2, Trabajador;
 
 		public function asignarNombre($nombre){
+<<<<<<< HEAD
 			$this->nombre = self::mensaje() . $nombre;
+=======
+			$this->$nombre = self::mensaje() . $nombre;
+>>>>>>> origin/master
 		}
 	}
 
