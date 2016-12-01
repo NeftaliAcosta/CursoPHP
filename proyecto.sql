@@ -25,7 +25,9 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `estudiantes`
 --
+create database proyecto;
 
+use proyecto;
 CREATE TABLE `estudiantes` (
   `ID` int(11) NOT NULL,
   `NOMBRE` varchar(200) COLLATE utf8_spanish_ci NOT NULL,
