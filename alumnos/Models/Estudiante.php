@@ -1,7 +1,7 @@
 <?php namespace Models;
 	
 
-	classs Estidiante{
+	class Estudiante{
 
 		private $id;
 		private $nombre;
@@ -21,6 +21,9 @@
 			$this->$atributo = $contenido;
 		}
 
+		public function hola(){
+			echo "hola mundo";
+		}
 		public function get($atributo){
 			return $this->$atributo;
 		}
